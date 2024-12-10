@@ -1,0 +1,1 @@
+/usr/bin/gcc -g -fsanitize=address,undefined -fno-sanitize-recover=all -O2 CMakeFiles/udp_server.dir/main.c.o -o udp_server  libserver.a
