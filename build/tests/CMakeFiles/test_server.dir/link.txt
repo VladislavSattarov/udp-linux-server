@@ -1,0 +1,1 @@
+/usr/bin/gcc -g -fsanitize=address,undefined -fno-sanitize-recover=all -O2 CMakeFiles/test_server.dir/test_server.c.o -o test_server  -Wl,-rpath,/usr/local/lib ../src/libserver.a ../src/libclient.a /usr/local/lib/libcmocka.so.0
